@@ -1,3 +1,4 @@
+import { LogIn } from 'lucide-react'
 import './App.css'
 import Navbar from './components/shared/Navbar'
 
@@ -9,11 +10,11 @@ const appRouter = createBrowserRouter([
   },
   {
     path:'/login',
-    element:<login/>
+    element:<LogIn/>
   },
   {
     path:'/signup',
-    element:<signup/>
+    element:<Signup/>
   }
 ])
 
