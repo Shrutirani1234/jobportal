@@ -2,8 +2,14 @@ import React from 'react'
 import Navbar from './shared/Navbar'
 
 const home = () => {
-  return (
+  return 
+  (
     <div>
+    <Navbar/>
+    <HeroSection/>
+    <CategoryCarousel/>
+    <LatestJobs/>
+    <Footer/>
       
     </div>
   )
